@@ -25,6 +25,7 @@ Use a fresh namespace for every lab. The setup manifests create the required nam
 | # | Topic | Directory |
 |---|---|---|
 | 01 | Secret-backed environment variables | [`labs/01-secret-env`](labs/01-secret-env) |
+| 02 | Rolling update and rollback | [`labs/02-rolling-update`](labs/02-rolling-update) |
 
 
 ## Exam habits
