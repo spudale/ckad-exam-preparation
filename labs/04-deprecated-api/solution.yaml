@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: legacy-web
+  namespace: ckad-xyz
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: legacy-web
+  template:
+    metadata:
+      labels:
+        app: legacy-web
+    spec:
+      containers:
+        - name: nginx
+          image: nginx:1.25-alpine
+

@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: legacy-web
+  namespace: ckad-api
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: legacy-web
+    spec:
+      containers:
+        - name: nginx
+          image: nginx:1.25-alpine
+
