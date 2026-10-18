@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: legacy-web
-  namespace: ckad-xyz
+  namespace: ckad-api
 spec:
   replicas: 2
   selector:

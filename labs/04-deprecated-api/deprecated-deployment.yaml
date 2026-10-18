@@ -2,7 +2,7 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: legacy-web
-  namespace: ckad-api
+  namespace: ckad-xyz
 spec:
   replicas: 2
   template:
