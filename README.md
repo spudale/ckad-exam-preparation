@@ -29,7 +29,7 @@ Use a fresh namespace for every lab. The setup manifests create the required nam
 | 03 | Pod CPU request and namespace limit | [`labs/03-pod-resource-constraint`](labs/03-pod-resource-constraint) |
 | 04 | Replace a deprecated API version | [`labs/04-deprecated-api`](labs/04-deprecated-api) |
 | 05 | Update container name and image | [`labs/05-container-update`](labs/05-container-update) |
-
+| 06 | CronJob every 30 minutes | [`labs/06-cronjob`](labs/06-cronjob) |
 
 ## Exam habits
 

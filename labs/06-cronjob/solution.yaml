@@ -1,0 +1,22 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: half-hour-report
+  namespace: ckad-cron
+spec:
+  schedule: "*/30 * * * *"
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 1
+  jobTemplate:
+    spec:
+      activeDeadlineSeconds: 3
+      template:
+        spec:
+          restartPolicy: Never
+          containers:
+            - name: sp
+              image: busybox:1.28
+              command:
+                - /bin/sh
+                - -c
+                - date; echo Hello from the Kubernetes cluster
