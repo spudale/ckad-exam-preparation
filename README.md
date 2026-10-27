@@ -30,6 +30,7 @@ Use a fresh namespace for every lab. The setup manifests create the required nam
 | 04 | Replace a deprecated API version | [`labs/04-deprecated-api`](labs/04-deprecated-api) |
 | 05 | Update container name and image | [`labs/05-container-update`](labs/05-container-update) |
 | 06 | CronJob every 30 minutes | [`labs/06-cronjob`](labs/06-cronjob) |
+| 07 | Create an Ingress | [`labs/07-create-ingress`](labs/07-create-ingress) |
 
 ## Exam habits
 
