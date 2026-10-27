@@ -31,6 +31,7 @@ Use a fresh namespace for every lab. The setup manifests create the required nam
 | 05 | Update container name and image | [`labs/05-container-update`](labs/05-container-update) |
 | 06 | CronJob every 30 minutes | [`labs/06-cronjob`](labs/06-cronjob) |
 | 07 | Create an Ingress | [`labs/07-create-ingress`](labs/07-create-ingress) |
+| 08 | Troubleshoot an inaccessible Ingress | [`labs/08-fix-ingress`](labs/08-fix-ingress) |
 
 ## Exam habits
 
