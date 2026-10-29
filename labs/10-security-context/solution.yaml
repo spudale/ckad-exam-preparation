@@ -1,0 +1,12 @@
+spec:
+  template:
+    spec:
+      containers:
+        - name: toolbox
+          securityContext:
+            runAsUser: 1000
+            capabilities:
+              add:
+                - NET_ADMIN
+                - SYS_TIME
+

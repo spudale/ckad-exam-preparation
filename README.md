@@ -32,7 +32,8 @@ Use a fresh namespace for every lab. The setup manifests create the required nam
 | 06 | CronJob every 30 minutes | [`labs/06-cronjob`](labs/06-cronjob) |
 | 07 | Create an Ingress | [`labs/07-create-ingress`](labs/07-create-ingress) |
 | 08 | Troubleshoot an inaccessible Ingress | [`labs/08-fix-ingress`](labs/08-fix-ingress) |
-| 09 | Create a 20% canary deployment | [`labs/09-canary-deployment`](labs/13-canary-deployment) |
+| 09 | Create a 20% canary deployment | [`labs/09-canary-deployment`](labs/10-canary-deployment) |
+| 10 | Security context and capabilities | [`labs/10-security-context`](labs/10-security-context) |
 
 ## Exam habits
 
