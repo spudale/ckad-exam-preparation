@@ -34,6 +34,7 @@ Use a fresh namespace for every lab. The setup manifests create the required nam
 | 08 | Troubleshoot an inaccessible Ingress | [`labs/08-fix-ingress`](labs/08-fix-ingress) |
 | 09 | Create a 20% canary deployment | [`labs/09-canary-deployment`](labs/10-canary-deployment) |
 | 10 | Security context and capabilities | [`labs/10-security-context`](labs/10-security-context) |
+| 11 | NetworkPolicy | [`labs/11-network-policy`](labs/11-network-policy) |
 
 ## Exam habits
 
